@@ -10,21 +10,41 @@
 
 <body>
 
-   <div class="navheader">
-  <a href="index.html" class="logo"><img class="logopic" src="images/logo.png" alt="logo"></a>
-  <div class="nav">
-       <a href="#">ABOUT US</a>
-       <a href="#">TAKE ACTION</a>
-       <a href="#">MILK</a>
-       <a class="current" href="#">CAMPAIGN</a>
-   </div>
-  </div>
-<header>
-
+<header class="header">
+  <nav class="navbar">
+    <div class="navContainer">
+        <section class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></section>
+        <section class="iconBar">
+            <span class="menuBar" onClick="showHide()">
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+            </span>
+        </section>
+        <section class="menus" id="nav-lists">
+            <ul>
+                <li><a href="#">CAMPAIGN</a></li>
+                <li><a href="#">MILK</a></li>
+                <li><a href="#">TAKE ACTION</a></li>
+            </ul>
+        </section>
+    </div>
+  </nav>
 </header>
+
 <main>
+
+<section class="section1">
+   <h1>SOMETHING DESCRIBING VIDEO BLAH BLAH BLAH</h1>
+   <!--<div class="video-container">
+                <iframe src="https://www.youtube.com/embed/snQVkUTHrJc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            -->
+            <div class="cow"><img src="images/logo.png"></div>
+</section>
 
 
 </main>
+<script src="java.js"></script>
 </body>
 </html>

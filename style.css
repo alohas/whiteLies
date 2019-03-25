@@ -1,3 +1,4 @@
+/* NAV FOR BIG SCREEN
 .navheader {
   overflow: hidden;
     background-color: white;
@@ -8,7 +9,7 @@
     padding: 1.5rem;
     height: 7rem;
     position: fixed;
-    */
+
 }
 .navheader a {
   float: left;
@@ -62,4 +63,196 @@
   opacity: 1;
   left: 0;
   right: 0;
+}
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url(images/background.png);
+
+
+}
+
+.logopic {
+    width: 160px;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.section1 {
+    background-color: rgba(255, 255, 255, 0.71);
+    height: 100vh;
+}
+
+
+.cow img {
+    height: 300px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.navContainer {
+    max-width: 30000px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    overflow: hidden;
+    text-align: left;
+}
+
+.logo img {
+    max-height: 3.8rem;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.menus ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menus ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+.menus ul li a:hover {
+    background-color: white;
+    color: grey;
+}
+
+.iconBar {
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+.menuBar {
+    width: 45px;
+    align-self: center;
+    cursor: pointer;
+    color: black;
+}
+
+.icon-bar {
+    height: 4px;
+    width: 80%;
+    background: black;
+    margin: 5px 0;
+    display: block;
+    border-radius: 2px;
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+        height: 60px;
+    }
+
+    .menus {
+        flex: 100%;
+        background: white;
+        height: 0;
+        overflow: hidden;
+        z-index: 5;
+
+    }
+
+    .menus ul {
+        flex-direction: column;
+    }
+
+    .menus ul li a {
+        height: 40px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+
+    .menus ul li a:hover {
+        background-color: black;
+        color: #FFF;
+    }
+
+    .navContainer {
+        justify-content: space-between;
+    }
+
+    .iconBar {
+        display: flex;
+        margin-right: 10px;
+
+    }
+
+    .menus-show {
+        height: auto;
+    }
+}
+
+
+@media (min-width: 601px){
+    .section1{
+        margin: 0px 6vh
+    }
+
 }
