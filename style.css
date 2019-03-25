@@ -1,3 +1,9 @@
+*{
+    margin:0;
+}
+
+
+
 .navheader {
   overflow: hidden;
     background-color: white;
