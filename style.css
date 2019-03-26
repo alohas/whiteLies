@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 .cow {
     text-align: center;
 }
@@ -101,7 +103,6 @@ h2 {
 .navbar {
     width: 100%;
     background-color: #fff;
-
 }
 
 .navContainer {
@@ -110,11 +111,9 @@ h2 {
     height: 60px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .navContainer li a {
-    color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
@@ -143,6 +142,10 @@ h2 {
     text-align: center;
 }
 
+a{
+    color: black;
+}
+
 .menus ul li a {
     display: block;
     padding: 0 10px;
@@ -150,7 +153,6 @@ h2 {
     text-align: center;
     line-height: 60px;
     text-decoration: none;
-    color: #000;
     outline: none;
 }
 
@@ -364,4 +366,9 @@ h2 {
     .wrap {
         margin: 0px 18vh;
     }
+}
+
+
+a.current {
+    color: grey;
 }
