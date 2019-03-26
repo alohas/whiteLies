@@ -23,11 +23,17 @@ footer {
     background-color: white;
 }
 
-footer a img {
+.mini-logo {
     max-height: 40px;
     width: auto;
     padding-right: 23px;
     padding-left: 2px;
+}
+
+#anima {
+    max-height: 40px;
+    width: auto;
+    padding: 0px;
 }
 
 h1 {
@@ -186,8 +192,7 @@ button.modalOpen {
     border-color: black;
 }
 
-
-/*********               MENU                 ********/
+/*********               MENU-MOBILE                 ********/
 
 @media (max-width: 600px) {
     .logo {
@@ -242,7 +247,7 @@ button.modalOpen {
     }
 
     footer {
-        padding: 16px 6vh;
+        padding: 16px 7vh;
     }
 
     .navContainer li a {
@@ -261,7 +266,7 @@ button.modalOpen {
     }
 
     footer {
-        padding: 16px 12vh;
+        padding: 16px 13;
     }
 
     .bg {
@@ -276,7 +281,7 @@ button.modalOpen {
     }
 
     footer {
-        padding: 16px 18vh;
+        padding: 16px 19vh;
     }
 
     .bg {
