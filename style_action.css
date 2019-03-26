@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url(images/background.png);
+    padding-bottom: 50px;
+}
+
+#grid {
+    padding: 25px 0px;
+}
+
+
+.logopic {
+    width: 160px;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.bg {
+    background-color: rgba(255, 255, 255, 0.71);
+    height: 100%;
+}
+
+
+.cow img {
+    height: 300px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.navContainer {
+    max-width: 30000px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    overflow: hidden;
+    text-align: left;
+}
+
+.logo img {
+    max-height: 3.8rem;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.menus ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menus ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+.menus ul li a:hover {
+    background-color: white;
+    color: grey;
+}
+
+.iconBar {
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+.menuBar {
+    width: 45px;
+    align-self: center;
+    cursor: pointer;
+    color: black;
+}
+
+.icon-bar {
+    height: 4px;
+    width: 80%;
+    background: black;
+    margin: 5px 0;
+    display: block;
+    border-radius: 2px;
+}
+
+.milk_box {
+    text-align: center;
+}
+
+img.milk {
+    width: 100%;
+}
+
+button.modalOpen {
+    text-align: center;
+}
+
+.modalOpen {
+    color: #494949;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #494949;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.modalOpen:hover {
+    color: #ffffff;
+
+    transition: all 0.4s ease 0s;
+}
+
+.modalOpen#almond:hover {
+    background: #EFDECD;
+    border-color: #EFDECD;
+}
+
+.modalOpen#soy:hover {
+    background: #9ADB9A;
+    border-color: #9ADB9A;
+}
+
+.modalOpen#rice:hover {
+    background: #E3D474;
+    border-color: #E3D474;
+}
+
+.modalOpen#coconut:hover {
+    background: #F0EDE5;
+    border-color: #F0EDE5;
+}
+
+.modalOpen#oat:hover {
+    background: #E0DCC8;
+    border-color: #E0DCC8;
+}
+
+.modalOpen#x:hover {
+    background: black;
+    border-color: black;
+}
+
+
+/*********               MENU                 ********/
+
+@media (max-width: 600px) {
+    .logo {
+        height: 60px;
+    }
+
+    .menus {
+        flex: 100%;
+        background: white;
+        height: 0;
+        overflow: hidden;
+        z-index: 5;
+
+    }
+
+    .menus ul {
+        flex-direction: column;
+    }
+
+    .menus ul li a {
+        height: 40px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+
+    .menus ul li a:hover {
+        background-color: black;
+        color: #FFF;
+    }
+
+    .navContainer {
+        justify-content: space-between;
+    }
+
+    .iconBar {
+        display: flex;
+        margin-right: 10px;
+
+    }
+
+    .menus-show {
+        height: auto;
+    }
+}
+
+/*********               RESPONSIVENES                 ********/
+
+@media (min-width: 601px) {
+    .bg {
+        margin: 0px 6vh
+    }
+
+}
+
+@media (min-width: 768px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+    }
+
+    .bg {
+        margin: 0px 12vh
+    }
+}
+
+
+@media (min-width: 1440px) {
+    #grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .bg {
+        margin: 0px 18vh
+    }
+}
