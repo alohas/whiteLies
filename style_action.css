@@ -7,7 +7,6 @@
 body {
     margin: 0;
     background-image: url(images/background.png);
-    padding-bottom: 50px;
 }
 
 #grid {
@@ -19,6 +18,11 @@ body {
     width: 160px;
 }
 
+footer{
+    max-height: 60px;
+    padding: 16px;
+    background-color: black;
+}
 
 h1 {
     text-align: center;
