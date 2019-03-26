@@ -24,14 +24,14 @@ footer {
 }
 
 .mini-logo {
-    max-height: 40px;
+    max-height: 22px;
     width: auto;
-    padding-right: 23px;
-    padding-left: 2px;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 
 #anima {
-    max-height: 40px;
+    max-height: 20px;
     width: auto;
     padding: 0px;
 }
@@ -256,6 +256,16 @@ button.modalOpen {
         letter-spacing: 3px;
     }
 
+    .mini-logo {
+        max-height: 32px;
+        padding-right: 4px;
+        padding-left: 1px;
+    }
+
+    #anima {
+        max-height: 32px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -266,11 +276,21 @@ button.modalOpen {
     }
 
     footer {
-        padding: 16px 13;
+        padding: 16px 13vh;
     }
 
     .bg {
         margin: 0px 12vh
+    }
+
+    .mini-logo {
+        max-height: 36px;
+        padding-right: 8px;
+        padding-left: 2px;
+    }
+
+    #anima {
+        max-height: 36px;
     }
 }
 
@@ -288,4 +308,13 @@ button.modalOpen {
         margin: 0px 18vh
     }
 
+    .mini-logo {
+        max-height: 40px;
+        padding-right: 23px;
+        padding-left: 2px;
+    }
+
+    #anima {
+        max-height: 40px;
+    }
 }
