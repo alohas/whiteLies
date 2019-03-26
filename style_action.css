@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:"Avenir", Helvetica, sans-serif;
+    font-family: "Avenir", Helvetica, sans-serif;
 }
 
 body {
@@ -18,10 +18,16 @@ body {
     width: 160px;
 }
 
-footer{
-    max-height: 60px;
+footer {
     padding: 16px;
-    background-color: black;
+    background-color: white;
+}
+
+footer a img {
+    max-height: 40px;
+    width: auto;
+    padding-right: 23px;
+    padding-left: 2px;
 }
 
 h1 {
@@ -39,11 +45,6 @@ h1 {
     height: 100%;
 }
 
-
-.cow img {
-    height: 300px;
-}
-
 *,
 *::before,
 *::after {
@@ -58,11 +59,6 @@ h1 {
     background-color: #fff;
     padding: 1rem;
 
-}
-
-a.current {
-    background-color: #f8f8f8;
-    border-radius: 8px;
 }
 
 .navContainer {
@@ -244,7 +240,12 @@ button.modalOpen {
     .bg {
         margin: 0px 6vh
     }
-    .navContainer li a{
+
+    footer {
+        padding: 16px 6vh;
+    }
+
+    .navContainer li a {
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 3px;
@@ -259,6 +260,10 @@ button.modalOpen {
         grid-row-gap: 50px;
     }
 
+    footer {
+        padding: 16px 12vh;
+    }
+
     .bg {
         margin: 0px 12vh
     }
@@ -269,6 +274,11 @@ button.modalOpen {
     #grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    footer {
+        padding: 16px 18vh;
+    }
+
     .bg {
         margin: 0px 18vh
     }
