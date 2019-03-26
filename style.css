@@ -332,8 +332,6 @@ h2 {
 }
 
 
-
-
 .navbar {
   overflow: hidden;
     background-color: white;
@@ -352,21 +350,18 @@ h2 {
     display: block;
 }
 
-    .cd-fixed-bg .video-wrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  width: 60%;
-  max-width: 1170px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 3rem;
-}
-    .cd-fixed-bg {
-  min-height: 90vh;
 }
 
+@media (min-width: 768px){
+    .wrap {
+        margin: 0px 12vh;
+    }
+}
+
+
+@media (min-width: 1440px){
+
+    .wrap {
+        margin: 0px 18vh;
+    }
+}
