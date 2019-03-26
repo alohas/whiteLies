@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir", Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url(images/background.png);
+}
+
+.logopic {
+    width: 160px;
+}
+
+footer {
+    padding: 16px;
+    background-color: white;
+}
+
+.mini-logo {
+    max-height: 22px;
+    width: auto;
+    padding-right: 2px;
+    padding-left: 1px;
+}
+
+#anima {
+    max-height: 20px;
+    width: auto;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.bg {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+
+}
+
+.navContainer {
+    max-width: 30000px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    overflow: hidden;
+    text-align: left;
+}
+
+.logo img {
+    max-height: 3.8rem;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.menus ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.menus ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+.menus ul li a:hover {
+    background-color: white;
+    color: grey;
+}
+
+.iconBar {
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+.menuBar {
+    width: 45px;
+    align-self: center;
+    cursor: pointer;
+    color: black;
+}
+
+.icon-bar {
+    height: 4px;
+    width: 80%;
+    background: black;
+    margin: 5px 0;
+    display: block;
+    border-radius: 2px;
+}
+
+
+/*********               MENU-MOBILE                 ********/
+
+@media (max-width: 600px) {
+    .logo {
+        height: 60px;
+    }
+
+    .menus {
+        flex: 100%;
+        background: white;
+        height: 0;
+        overflow: hidden;
+        z-index: 5;
+
+    }
+
+    .menus ul {
+        flex-direction: column;
+    }
+
+    .menus ul li a {
+        height: 40px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+
+    .menus ul li a:hover {
+        background-color: black;
+        color: #FFF;
+    }
+
+    .navContainer {
+        justify-content: space-between;
+    }
+
+    .iconBar {
+        display: flex;
+        margin-right: 10px;
+
+    }
+
+    .menus-show {
+        height: auto;
+    }
+}
+
+/*********               RESPONSIVENES                 ********/
+
+@media (min-width: 601px) {
+    .bg {
+        margin: 0px 6vh
+    }
+
+    footer {
+        padding: 16px 7vh;
+    }
+
+    .navContainer li a {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+
+    .mini-logo {
+        max-height: 32px;
+        padding-right: 4px;
+        padding-left: 1px;
+    }
+
+    #anima {
+        max-height: 32px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    footer {
+        padding: 16px 13vh;
+    }
+
+    .bg {
+        margin: 0px 12vh
+    }
+
+    .mini-logo {
+        max-height: 36px;
+        padding-right: 8px;
+        padding-left: 2px;
+    }
+
+    #anima {
+        max-height: 36px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    footer {
+        padding: 16px 19vh;
+    }
+
+    .bg {
+        margin: 0px 18vh
+    }
+
+    .mini-logo {
+        max-height: 40px;
+        padding-right: 23px;
+        padding-left: 2px;
+    }
+
+    #anima {
+        max-height: 40px;
+    }
+}
