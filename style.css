@@ -12,11 +12,6 @@ body {
 
 }
 
-
-
-
-
-
 .cow {
     text-align: center;
 }
@@ -86,7 +81,7 @@ h2 {
 
 
 .cow img {
-    max-width: 80%;
+    max-height: 50vw;
 }
 
 *,
@@ -182,6 +177,28 @@ a{
     border-radius: 2px;
 }
 
+footer {
+    padding: 16px;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.mini-logo {
+    max-height: 22px;
+    width: auto;
+    padding-right: 2px;
+    padding-left: 1px;
+}
+
+#anima {
+    max-height: 20px;
+    width: auto;
+    padding: 0px;
+}
+a.current {
+    color: grey;
+}
 
 @media (max-width: 600px) {
     .logo {
@@ -237,11 +254,74 @@ a{
         margin: 0px 6vh
     }
 
-    .cow img {
-    max-height: 300px;
+     footer {
+        padding: 16px 7vh;
+    }
+
+      .mini-logo {
+        max-height: 32px;
+        padding-right: 4px;
+        padding-left: 1px;
+    }
+
+    #anima {
+        max-height: 32px;
+    }
+
+
+.navbar {
+  overflow: hidden;
+    background-color: white;
+    z-index: 1;
+    padding: 1rem;
+}
+.menus li a {
+  float: right;
 }
 
-       .wrap {
+.nav {
+ overflow: hidden;
+}
+.navContainer li a {
+    float: right;
+    display: block;
+}
+
+}
+
+@media (min-width: 768px){
+    .wrap {
+        margin: 0px 12vh;
+    }
+      footer {
+        padding: 16px 13vh;
+    }
+
+       .mini-logo {
+        max-height: 36px;
+        padding-right: 8px;
+        padding-left: 2px;
+    }
+
+    #anima {
+        max-height: 36px;
+    }
+
+
+    .cow img {
+    max-height: 40vw;
+}
+
+}
+
+
+@media (min-width: 1060px){
+
+            .cow img {
+    max-height: 20vw;
+}
+
+        .wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -330,32 +410,6 @@ a{
 .div12 {
     grid-area: sixth-area
 }
-
-
-.navbar {
-  overflow: hidden;
-    background-color: white;
-    z-index: 1;
-    padding: 1rem;
-}
-.menus li a {
-  float: right;
-}
-
-.nav {
- overflow: hidden;
-}
-.navContainer li a {
-    float: right;
-    display: block;
-}
-
-}
-
-@media (min-width: 768px){
-    .wrap {
-        margin: 0px 12vh;
-    }
 }
 
 
@@ -364,9 +418,20 @@ a{
     .wrap {
         margin: 0px 18vh;
     }
+
+    footer {
+        padding: 16px 19vh;
+    }
+     .mini-logo {
+        max-height: 40px;
+        padding-right: 23px;
+        padding-left: 2px;
+    }
+
+    #anima {
+        max-height: 40px;
+    }
 }
 
 
-a.current {
-    color: grey;
-}
+
