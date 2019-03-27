@@ -40,41 +40,63 @@
             <div id=grid>
                 <article class="milk_box">
                     <img class="milk" src="images/milk_almond.png" alt="almond"><br>
-                    <button id="almond" class="modalOpen">Learn More</button>
+                    <button id="almond" class="modalOpen" onClick="openModal(this.id)">Learn More</button>
                 </article>
                 <article class="milk_box">
                     <img class="milk" src="images/milk_coconut.png" alt="coconut"><br>
-                    <button id="coconut" class="modalOpen">Learn More</button>
+                    <button id="coconut" class="modalOpen" onClick="openModal(this.id)">Learn More</button>
                 </article>
                 <article class="milk_box">
                     <img class="milk" src="images/milk_oat.png" alt="oat"><br>
-                    <button id="oat" class="modalOpen">Learn More</button>
+                    <button id="oat" class="modalOpen" onClick="openModal(this.id)">Learn More</button>
                 </article>
                 <article class="milk_box">
                     <img class="milk" src="images/milk_rice.png" alt="rice"><br>
-                    <button id="rice" class="modalOpen">Learn More</button>
+                    <button id="rice" class="modalOpen" onClick="openModal(this.id)">Learn More</button>
                 </article>
                 <article class="milk_box">
                     <img class="milk" src="images/milk_soy.png" alt="soy"><br>
-                    <button id="soy" class="modalOpen">Learn More</button>
+                    <button id="soy" class="modalOpen" onClick="openModal(this.id)">Learn More</button>
                 </article>
                 <article class="milk_box">
-                    <img class="milk" src="images/milk.png" alt="milktype"><br>
-                    <button id="x" class="modalOpen">Learn More</button>
+                    <img class="milk" src="images/milk_hemp.png" alt="hemp"><br>
+                    <button id="hemp" class="modalOpen" onClick="openModal(this.id)">Learn More</button>
                 </article>
             </div>
 
 
         </section>
     </main>
+
     <footer>
-        <a href="#"><img  class="mini-logo" src="images/facebook.png" alt="logo"></a>
-        <a href="#"><img class="mini-logo" src="images/instagram.png" alt="logo"></a>
-        <a href="#"><img class="mini-logo" src="images/vimeo.png" alt="logo"></a>
-        <a href="#"><img class="mini-logo" src="images/twitter.png" alt="logo"></a>
-        <a href="#"><img class="mini-logo" src="images/youtube.png" alt="logo"></a>
-        <a href="#" style="float: right"><img  id="anima" src="images/anima.png" alt="logo"></a>
+        <a href="https://www.facebook.com/dk.anima/" target="_blank"><img class="mini-logo" src="images/facebook.png" alt="logo"></a>
+        <a href="https://www.instagram.com/animadk/" target="_blank"><img class="mini-logo" src="images/instagram.png" alt="logo"></a>
+        <a href="https://vimeo.com/animadk" target="_blank"><img class="mini-logo" src="images/vimeo.png" alt="logo"></a>
+        <a href="https://twitter.com/animadk" target="_blank"><img class="mini-logo" src="images/twitter.png" alt="logo"></a>
+        <a href="https://www.youtube.com/channel/UCznM4GHEE0EXUu62MIEaE3A" target="_blank"><img class="mini-logo" src="images/youtube.png" alt="logo"></a>
+        <a href="https://anima.dk/" target="_blank" style="float: right"><img id="anima" src="images/anima.png" alt="logo"></a>
     </footer>
+
+<template>
+    <div class="bg-modal hide">
+        <article class="modal-content">
+            <button onclick="hide()" id="close">X</button>
+            <h5 class="modal-name"></h5>
+            <img class="modal-img" src="" alt="dish">
+            <h6 class="modal-protein"></h6>
+            <h6 class="modal-calories"></h6>
+            <h6 class="modal-fat"></h6>
+            <h6 class="modal-satfat"></h6>
+            <h6 class="modal-calcium"></h6>
+            <h6 class="modal-vitd"></h6>
+            <h6 class="modal-ch"></h6>
+            <h6 class="modal-sugar"></h6>
+            <p class="modal-de">description</p>
+        </article>
+    </div>
+</template>
+
+
     <script src="java.js"></script>
 </body>
 
