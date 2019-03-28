@@ -80,9 +80,10 @@
 <template>
     <div class="bg-modal hide">
         <article class="modal-content">
-            <button onclick="hide()" id="close">X</button>
+            <button onclick="hide(this.className)" id="close">X</button>
             <h5 class="modal-name"></h5>
-            <img class="modal-img" src="" alt="dish">
+            <!-- <img class="modal-img" src="" alt="dish"> -->
+            <p class="modal-de">description</p>
             <h6 class="modal-protein"></h6>
             <h6 class="modal-calories"></h6>
             <h6 class="modal-fat"></h6>
@@ -91,7 +92,7 @@
             <h6 class="modal-vitd"></h6>
             <h6 class="modal-ch"></h6>
             <h6 class="modal-sugar"></h6>
-            <p class="modal-de">description</p>
+
         </article>
     </div>
 </template>

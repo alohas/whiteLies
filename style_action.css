@@ -13,7 +13,7 @@ body {
     padding: 25px 0px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -222,6 +222,40 @@ article.modal-content {
     margin-right: 2em;
     margin-top: 3em;
     background-color: whitesmoke;
+    padding: 20px;
+}
+
+article.modal-content button {
+    position: fixed;
+    top: 48px;
+    right: 32px;
+    padding: 12px;
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p.modal-de{
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+
+article.modal-content button:hover {
+    background-color: red;
 }
 
 
