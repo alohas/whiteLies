@@ -157,6 +157,7 @@ button.modalOpen {
     border-radius: 6px;
     display: inline-block;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .modalOpen:hover {
@@ -171,13 +172,13 @@ button.modalOpen {
 }
 
 .modalOpen#soy:hover {
-    background: #9ADB9A;
-    border-color: #9ADB9A;
+    background: #d2efd2;
+    border-color: #d2efd2;
 }
 
 .modalOpen#rice:hover {
-    background: #E3D474;
-    border-color: #E3D474;
+    background: #f6f2c5;
+    border-color: #f6f2c5;
 }
 
 .modalOpen#coconut:hover {
@@ -190,9 +191,9 @@ button.modalOpen {
     border-color: #E0DCC8;
 }
 
-.modalOpen#x:hover {
-    background: black;
-    border-color: black;
+.modalOpen#hemp:hover {
+    background: #e8e1cd;
+    border-color: #e8e1cd;
 }
 
 /*********               MODAL                 ********/
