@@ -208,7 +208,7 @@ a.current {
 .milks p{
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .milks h2 {
@@ -218,6 +218,11 @@ a.current {
 
 .fifth p {
     padding-bottom: 50px
+}
+
+.origin p {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 
@@ -351,10 +356,15 @@ a.current {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+        "go-area go-area"
         "one-area  one-area"
         "two-area  three-area"
         "ma-area ma-area";
 }
+
+    .origin {
+        grid-area: go-area;
+    }
 
     .myth {
         grid-area: ma-area;
