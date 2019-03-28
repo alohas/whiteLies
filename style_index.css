@@ -164,6 +164,7 @@ h1 {
 @media (max-width: 600px) {
     .logo {
         height: 60px;
+        align-content: center;
     }
 
     .menus {
@@ -180,10 +181,10 @@ h1 {
     }
 
     .menus ul li a {
-        height: 40px;
-        font-size: 14px;
+        font-size: 20px;
         text-transform: uppercase;
-        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: 3px;
     }
 
     .menus ul li a:hover {
