@@ -28,7 +28,7 @@ function displayMilkData(item) {
 
 
     clone.querySelector(".bg-modal").id = item.gsx$title.$t;
-    clone.querySelector(".modal-name").textContent = item.gsx$title.$t;
+    clone.querySelector(".modal-name").textContent = item.gsx$title.$t + " MILK";
 
 
 

@@ -249,7 +249,7 @@ h6 {
     font-size: 20px;
 }
 
-p.modal-de{
+p.modal-de {
     font-size: 23px;
     padding-bottom: 15px;
 }
@@ -276,9 +276,10 @@ article.modal-content button:hover {
 
     }
 
-     .navbar{
+    .navbar {
         padding: 0;
     }
+
     .menus ul {
         flex-direction: column;
     }
@@ -364,6 +365,19 @@ article.modal-content button:hover {
     #anima {
         max-height: 36px;
     }
+
+    article.modal-content {
+        margin-right: 8em;
+        margin-left: 8em;
+        height: calc(100% - 300px);
+    }
+
+    article.modal-content button {
+        top: 48px;
+        right: 128px;
+    }
+
+
 }
 
 
@@ -389,4 +403,18 @@ article.modal-content button:hover {
     #anima {
         max-height: 40px;
     }
+
+    article.modal-content {
+        margin-right: 26em;
+        margin-left: 26em;
+        height: calc(100% - 300px);
+    }
+
+    article.modal-content button {
+        top: 48px;
+        right: 416px;
+    }
+
+
+
 }
