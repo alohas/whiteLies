@@ -50,3 +50,8 @@ function openModal(clicked_id) {
     modal.classList.remove("hide");
 
 }
+
+function hide(){
+    const modal = document.querySelectorAll("div.bg-modal");
+    modal.classList.rem
+}
