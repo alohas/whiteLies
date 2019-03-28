@@ -242,15 +242,19 @@ article.modal-content {
 
     }
 
+     .navbar{
+        padding: 0;
+    }
     .menus ul {
         flex-direction: column;
     }
 
     .menus ul li a {
-        height: 40px;
-        font-size: 14px;
+        font-size: 20px;
         text-transform: uppercase;
-        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: 3px;
+
     }
 
     .menus ul li a:hover {

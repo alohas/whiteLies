@@ -196,10 +196,12 @@ h1 {
         justify-content: space-between;
     }
 
+    .navbar{
+        padding: 0;
+    }
     .iconBar {
         display: flex;
         margin-right: 10px;
-
     }
 
     .menus-show {
