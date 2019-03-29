@@ -162,36 +162,35 @@ button.modalOpen {
 
 .modalOpen:hover {
     color: #ffffff;
-
     transition: all 0.4s ease 0s;
 }
 
-.modalOpen#almond:hover {
+.modalOpen#Almond:hover {
     background: #EFDECD;
     border-color: #EFDECD;
 }
 
-.modalOpen#soy:hover {
+.modalOpen#Soy:hover {
     background: #d2efd2;
     border-color: #d2efd2;
 }
 
-.modalOpen#rice:hover {
+.modalOpen#Rice:hover {
     background: #f6f2c5;
     border-color: #f6f2c5;
 }
 
-.modalOpen#coconut:hover {
+.modalOpen#Coconut:hover {
     background: #F0EDE5;
     border-color: #F0EDE5;
 }
 
-.modalOpen#oat:hover {
+.modalOpen#Oat:hover {
     background: #E0DCC8;
     border-color: #E0DCC8;
 }
 
-.modalOpen#hemp:hover {
+.modalOpen#Hemp:hover {
     background: #e8e1cd;
     border-color: #e8e1cd;
 }
