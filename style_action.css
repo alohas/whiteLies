@@ -216,7 +216,7 @@ button.modalOpen {
 }
 
 article.modal-content {
-    height: calc(100% - 100px);
+
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 3em;
@@ -254,7 +254,8 @@ p.modal-de {
 }
 
 article.modal-content button:hover {
-    background-color: red;
+    background-color: black;
+    color: white;
 }
 
 
@@ -368,7 +369,6 @@ article.modal-content button:hover {
     article.modal-content {
         margin-right: 8em;
         margin-left: 8em;
-        height: calc(100% - 300px);
     }
 
     article.modal-content button {
@@ -377,6 +377,18 @@ article.modal-content button:hover {
     }
 
 
+}
+
+@media (min-width: 1024px){
+    article.modal-content {
+        margin-right: 19em;
+        margin-left: 19em;
+    }
+
+    article.modal-content button {
+        top: 48px;
+        right: 304px;
+    }
 }
 
 
@@ -406,7 +418,6 @@ article.modal-content button:hover {
     article.modal-content {
         margin-right: 26em;
         margin-left: 26em;
-        height: calc(100% - 300px);
     }
 
     article.modal-content button {

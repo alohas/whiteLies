@@ -205,12 +205,38 @@ a.current {
     color: grey;
 }
 
+.milks p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.milks h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fifth p {
+    padding-bottom: 50px
+}
+
+.origin p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
 @media (max-width: 600px) {
     .logo {
         height: 60px;
        align-content: center;
 
     }
+
+    .milks p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
     .menus {
         flex: 100%;
@@ -330,9 +356,20 @@ a.current {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+        "go-area go-area"
         "one-area  one-area"
-        "two-area  three-area";
+        "two-area  three-area"
+        "ma-area ma-area";
 }
+
+    .origin {
+        grid-area: go-area;
+    }
+
+    .myth {
+        grid-area: ma-area;
+    }
+
     .section1 {
         grid-area: one-area
     }
